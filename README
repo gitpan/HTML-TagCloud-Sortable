@@ -21,8 +21,9 @@ DESCRIPTION
     HTML::TagCloud. However, by using a different API, you can gain two
     features:
 
-    * Store arbitrary data with your tags
-    * Sort the tags by any stored field
+    *   Store arbitrary data with your tags
+
+    *   Sort the tags by any stored field
 
 METHODS
   new( %options )
@@ -37,10 +38,13 @@ METHODS
     This method is used by "html" to get the relevant list of tags for
     display. Options include:
 
-    * limit - uses the N most popular tags
-    * sort_field - sort by this field
-    * sort_order - 'asc' or 'desc'
-    * sort_type - 'alpha' or 'numeric'
+    *   limit - uses the N most popular tags
+
+    *   sort_field - sort by this field
+
+    *   sort_order - 'asc' or 'desc'
+
+    *   sort_type - 'alpha' or 'numeric'
 
     The default sort order is alphabetically by tag name. You can pass a sub
     reference to "sort_field" to do custom sorting. Example:
@@ -55,11 +59,11 @@ AUTHOR
     Brian Cassidy <bricas@cpan.org>
 
 COPYRIGHT AND LICENSE
-    Copyright 2008 by Brian Cassidy
+    Copyright 2007-2009 by Brian Cassidy
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
 
 SEE ALSO
-    * HTML::TagCloud
+    *   HTML::TagCloud
 
